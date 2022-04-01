@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #555;
+    background-color: black;
+    color: white;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -17,32 +17,32 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    
 }
 
 header {
-    background-color: crimson;
+    background-color: rgba(255, 0, 0, 0.795);
     color: white;
 }
 
 nav {
-    background-color: #333;
+    background-color: black;
     color: #fff;
+    margin-left: 100px;
 }
 
-nav ul {
-    padding: 0;
-    list-style: none;
-}
 
 nav li {
+    
     display: inline;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    padding-right: 15px;
+    font-size: 20px;
+    padding-right: 20px;
+    
 }
 
 .hero-image {
@@ -53,9 +53,18 @@ nav a {
     background-repeat: none;
     background-size: cover;
     position: relative;
+    }
+
+.citylights {
+    margin-left: 110px;
 }
 
 
+.logo {
+
+    height: 50px;
+    width: 50px;
+}
 
 .hero-text {
     
@@ -74,21 +83,42 @@ nav a {
     color: #fff;
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px rgb(12, 1, 1);
+    float: left;
+}
+
+h {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-style: oblique;
+
+}
+
 
 .main {
+    margin-top: 10px;
+    
     float: left;   
-    width: 70%;
+    width: 38%;
     padding: 0 30px;
     box-sizing: border-box;
+    border: 3px solid black;
+    box-shadow: 10px 5px 5px black;
 }
 
 .sidebar {
+    margin-top: 10px;
     float: right;
-    width: 30%;
+    width: 53%;
     background: #333;
     color: #fff;
-    padding: 10px;
-    box-sizing: border-box;   
+    
+    box-sizing: border-box;  
+    border: 3px solid black;
+    box-shadow: 10px 5px 5px black;
+     
 }
 
 footer {
@@ -136,8 +166,32 @@ input[type=text], select, textarea {
   }
   
   .container2 {
+      color: black;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+/* Social Media Logos */
+
+.fa-brands {
+    padding: 20px;
+    font-size: 60px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color:  rgba(255, 0, 0, 0.795);
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+  }
+
+
+/* iframe adjustments below*/
+
+iframe {
+    margin-top: 10px;
+}
 
